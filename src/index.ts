@@ -9,6 +9,9 @@ const gameData: string[][] = fs.readFileSync('football.csv', {
     return row.split(',')
 });
 
+enum MatchResult {
+    HomeWin = 'H'
+}
 
 //* TEST THE DATA 
 let manUnitedWins: number = 0;
