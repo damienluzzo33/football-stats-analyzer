@@ -1,8 +1,6 @@
 import { stringToDate } from "./Utils";
 import { GameResult } from "./GameResult";
-
-//* game data tuple
-type GameData = [Date,string,string,number,number,GameResult,string];
+import { GameData } from "./GameData"
 
 interface DataReader {
     read(): void;
